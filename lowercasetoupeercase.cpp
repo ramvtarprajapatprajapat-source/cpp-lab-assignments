@@ -6,7 +6,11 @@ int main()
     string s;
     cout<<"enter a name = ";
     cin>>s;
-    reverse(s.begin(),s.end());
-    cout<<"reverse = "<<s;
+    
+    for(int i=0;i<s.length();i++)
 
+    {
+s[i]=toupper(s[i]);
+    }
+    cout<<" char = "<<s;
 }
